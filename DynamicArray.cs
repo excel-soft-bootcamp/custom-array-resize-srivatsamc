@@ -1,8 +1,9 @@
 public class DynamicNumberArray{
 
     int[] buffer;
-    public DynamicArray(){ buffer=new int[5];
-    public DynamicArray(int initialSize){ buffer=new int[initialSize];}
+    public DynamicNumberArray(){ buffer=new int[5];
+    public DynamicNumberArray(int initialSize)
+        { buffer=new int[initialSize];}
     
     public void Set(int index,int value){
         
